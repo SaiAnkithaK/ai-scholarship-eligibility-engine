@@ -1,7 +1,9 @@
 import streamlit as st
 
 from components.student_form import student_profile_form
+from components.scholarship_cards import display_scholarships
 from eligibility import find_eligible_scholarships
+from ai.gemini_service import generate_scholarship_summary
 
 # --------------------------------------------------
 # Page Config
@@ -29,8 +31,7 @@ st.markdown("""
 </h1>
 
 <p class="sub-title">
-Discover scholarships across India with AI.
-Government • Private • NGO • Corporate
+Discover Government, Private, NGO and Corporate Scholarships across India using AI.
 </p>
 
 </div>
@@ -68,50 +69,13 @@ if student:
 
     st.divider()
 
-    st.header("🎯 Eligible Scholarships")
+    display_scholarships(scholarships)
 
-    if len(scholarships) == 0:
-        st.error("No scholarships matched your current profile.")
-    else:
+    st.divider()
 
-        st.success(f"Found {len(scholarships)} scholarship(s)!")
+    st.header("🤖 AI Scholarship Advisor")
 
-        for scholarship in scholarships:
+    with st.spinner("Generating AI insights..."):
+        summary = generate_scholarship_summary(student, scholarships)
 
-            with st.container(border=True):
-
-                c1, c2 = st.columns([4, 1])
-
-                with c1:
-
-                    st.subheader(scholarship["name"])
-
-                    st.write(
-                        f"**Provider:** {scholarship['provider']}"
-                    )
-
-                    st.write(
-                        f"**Type:** {scholarship['type']}"
-                    )
-
-                    st.write(
-                        scholarship["description"]
-                    )
-
-                with c2:
-
-                    st.metric(
-                        "Match",
-                        f"{scholarship['match_score']}%"
-                    )
-
-                st.write("### Required Documents")
-
-                for doc in scholarship["documents"]:
-                    st.write(f"✅ {doc}")
-
-                st.markdown(
-                    f"[Official Website]({scholarship['official_url']})"
-                )
-
-                st.divider()
+    st.write(summary)
