@@ -1,83 +1,108 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-/* Global */
-html, body, [class*="css"] {
-    font-family: 'Inter', sans-serif;
+html, body, [class*="css"]{
+    font-family:'Inter',sans-serif;
 }
 
-/* Main App */
+/* App Background */
 .stApp{
-    background: linear-gradient(135deg,#eef5ff,#ffffff);
+    background:#F5F7FB;
+    color:#1E293B;
 }
 
 /* Hide Streamlit Branding */
-#MainMenu{
-    visibility:hidden;
-}
-
-footer{
-    visibility:hidden;
-}
-
+#MainMenu,
+footer,
 header{
     visibility:hidden;
 }
 
+/* Main Container */
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+/* Hero Card */
+.glass-card{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    margin-bottom:30px;
+}
+
 /* Title */
 .main-title{
+    color:#1E3A8A;
     font-size:52px;
     font-weight:800;
-    color:#1E3A8A;
-    margin-bottom:10px;
+    margin:0;
 }
 
+/* Subtitle */
 .sub-title{
-    font-size:20px;
     color:#475569;
-    margin-bottom:35px;
+    font-size:20px;
+    margin-top:12px;
 }
 
-/* Glass Card */
-.glass-card{
-    background:rgba(255,255,255,0.75);
-    backdrop-filter:blur(18px);
-    border-radius:22px;
-    padding:28px;
-    box-shadow:0 8px 30px rgba(0,0,0,0.08);
-    border:1px solid rgba(255,255,255,.4);
+/* All headings */
+h1,h2,h3,h4,h5,h6{
+    color:#0F172A !important;
+}
+
+/* Normal text */
+p,label,span,li,div{
+    color:#1E293B;
+}
+
+/* Inputs */
+input{
+    color:black !important;
+}
+
+/* Select Boxes */
+div[data-baseweb="select"]{
+    color:black !important;
+}
+
+/* Text Areas */
+textarea{
+    color:black !important;
 }
 
 /* Buttons */
 .stButton>button{
     width:100%;
     border:none;
-    border-radius:14px;
-    padding:15px;
+    border-radius:12px;
     background:#2563EB;
-    color:white;
-    font-size:18px;
+    color:white !important;
+    padding:14px;
+    font-size:17px;
     font-weight:700;
-    transition:.25s;
 }
 
 .stButton>button:hover{
     background:#1D4ED8;
-    transform:translateY(-2px);
-}
-
-/* Text Inputs */
-.stTextInput input,
-.stNumberInput input,
-.stSelectbox div[data-baseweb="select"]{
-    border-radius:12px !important;
 }
 
 /* Metric Cards */
-.metric-card{
+[data-testid="stMetric"]{
     background:white;
-    padding:20px;
     border-radius:18px;
-    box-shadow:0 5px 20px rgba(0,0,0,.05);
-    text-align:center;
+    padding:18px;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+/* Containers */
+[data-testid="stVerticalBlockBorderWrapper"]{
+    border-radius:18px;
+}
+
+/* Success & Error */
+.stSuccess,
+.stError{
+    border-radius:15px;
 }
