@@ -1,0 +1,83 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Global */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Main App */
+.stApp{
+    background: linear-gradient(135deg,#eef5ff,#ffffff);
+}
+
+/* Hide Streamlit Branding */
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+/* Title */
+.main-title{
+    font-size:52px;
+    font-weight:800;
+    color:#1E3A8A;
+    margin-bottom:10px;
+}
+
+.sub-title{
+    font-size:20px;
+    color:#475569;
+    margin-bottom:35px;
+}
+
+/* Glass Card */
+.glass-card{
+    background:rgba(255,255,255,0.75);
+    backdrop-filter:blur(18px);
+    border-radius:22px;
+    padding:28px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.08);
+    border:1px solid rgba(255,255,255,.4);
+}
+
+/* Buttons */
+.stButton>button{
+    width:100%;
+    border:none;
+    border-radius:14px;
+    padding:15px;
+    background:#2563EB;
+    color:white;
+    font-size:18px;
+    font-weight:700;
+    transition:.25s;
+}
+
+.stButton>button:hover{
+    background:#1D4ED8;
+    transform:translateY(-2px);
+}
+
+/* Text Inputs */
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"]{
+    border-radius:12px !important;
+}
+
+/* Metric Cards */
+.metric-card{
+    background:white;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    text-align:center;
+}
