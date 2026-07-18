@@ -6,8 +6,8 @@ html, body, [class*="css"]{
 
 /* App Background */
 .stApp{
-    background:#F5F7FB;
-    color:#1E293B;
+    background:#F0E2CA;
+    color:#3E2E25;
 }
 
 /* Hide Streamlit Branding */
@@ -25,16 +25,19 @@ header{
 
 /* Hero Card */
 .glass-card{
-    background:white;
-    border-radius:20px;
-    padding:35px;
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
+    background:#7C5A42;
+    border-radius:24px;
+    padding:40px;
     margin-bottom:30px;
+    box-shadow:
+        14px 14px 30px rgba(63, 46, 34, 0.22),
+        -12px -12px 28px rgba(255, 246, 233, 0.75);
+    border:1px solid rgba(255,255,255,0.22);
 }
 
 /* Title */
 .main-title{
-    color:#1E3A8A;
+    color:#F7E3B5;
     font-size:52px;
     font-weight:800;
     margin:0;
@@ -42,67 +45,100 @@ header{
 
 /* Subtitle */
 .sub-title{
-    color:#475569;
+    color:#E9D7B4;
     font-size:20px;
     margin-top:12px;
 }
 
 /* All headings */
 h1,h2,h3,h4,h5,h6{
-    color:#0F172A !important;
+    color:#3E2E25 !important;
 }
 
 /* Normal text */
 p,label,span,li,div{
-    color:#1E293B;
+    color:#3E2E25;
+}
+
+/* Student Profile Form Text */
+form h1, form h2, form h3, form h4, form h5, form h6,
+form label, form p, form span, form li, form div{
+    color:#FFFFFF !important;
 }
 
 /* Inputs */
-input{
-    color:black !important;
-}
-
-/* Select Boxes */
+input,
+textarea,
 div[data-baseweb="select"]{
-    color:black !important;
-}
-
-/* Text Areas */
-textarea{
-    color:black !important;
+    color:#3E2E25 !important;
 }
 
 /* Buttons */
 .stButton>button{
     width:100%;
     border:none;
-    border-radius:12px;
-    background:#2563EB;
-    color:white !important;
+    border-radius:16px;
+    background:#E0B85E;
+    color:#4B2F18 !important;
     padding:14px;
     font-size:17px;
     font-weight:700;
+    box-shadow: 6px 6px 16px rgba(139, 92, 53, 0.18),
+                -6px -6px 16px rgba(255, 245, 214, 0.85);
 }
 
 .stButton>button:hover{
-    background:#1D4ED8;
+    background:#D09E3F;
 }
 
 /* Metric Cards */
 [data-testid="stMetric"]{
-    background:white;
-    border-radius:18px;
+    background:#EED9B7;
+    border-radius:22px;
     padding:18px;
-    box-shadow:0 6px 20px rgba(0,0,0,.08);
+    box-shadow:
+        8px 8px 20px rgba(104, 72, 49, 0.14),
+        -6px -6px 18px rgba(255,255,255,0.88);
 }
 
 /* Containers */
 [data-testid="stVerticalBlockBorderWrapper"]{
-    border-radius:18px;
+    border-radius:22px;
 }
 
-/* Success & Error */
+/* Success, Warning, Info, Error */
 .stSuccess,
-.stError{
-    border-radius:15px;
+.stError,
+.stWarning,
+.stInfo{
+    border-radius:18px;
+    color:#F7E7C9 !important;
+}
+/* ===== Light Yellow Input Boxes ===== */
+
+.stTextInput input,
+.stNumberInput input,
+.stDateInput input,
+.stTextArea textarea {
+    background-color: #FFF8DC !important;
+    color: #3E2E25 !important;
+    border: 2px solid #D8B36A !important;
+}
+
+/* Selectbox */
+div[data-baseweb="select"] > div {
+    background-color: #FFF8DC !important;
+    color: #3E2E25 !important;
+    border: 2px solid #D8B36A !important;
+}
+
+/* Dropdown text */
+div[data-baseweb="select"] span {
+    color: #3E2E25 !important;
+}
+
+/* Multiselect */
+.stMultiSelect div[data-baseweb="select"] > div {
+    background-color: #FFF8DC !important;
+    color: #3E2E25 !important;
 }
