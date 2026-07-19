@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import StatsSection from "../components/StatsSection";
 import FeatureCard from "../components/FeatureCard";
+
 
 export default function Home() {
   return (

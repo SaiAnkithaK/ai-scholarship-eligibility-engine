@@ -1,5 +1,7 @@
 import { ArrowRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+
 
 export default function Hero() {
   return (
@@ -27,10 +29,12 @@ export default function Hero() {
           </p>
 
           <div className="flex gap-4 mt-8">
-            <Button size="lg">
-              Get Started
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link to="/eligibility">
+              <Button size="lg" className="bg-stone-800 hover:bg-stone-900">
+                Get Started
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
 
             <Button variant="outline" size="lg">
               Learn More
