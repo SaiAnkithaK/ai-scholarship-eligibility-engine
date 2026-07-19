@@ -228,7 +228,8 @@ export default function StudentForm() {
       const payload = buildPayload();
       const response = await axios.post(
         //"http://127.0.0.1:8000/find-scholarships",
-        "https://shiny-meme-695q75g7xggv3gw5-8000.app.github.dev/find-scholarships",
+        //"https://shiny-meme-695q75g7xggv3gw5-8000.app.github.dev/find-scholarships",
+        "/find-scholarships",
         payload
       );
       setResults(response.data.scholarships || []);
@@ -834,7 +835,7 @@ export default function StudentForm() {
                         <a
                           href={item.official_url || item.apply_url || item.url || "#"}
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                         >
                           Apply →
                         </a>
