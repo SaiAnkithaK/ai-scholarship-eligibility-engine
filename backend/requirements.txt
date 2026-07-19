@@ -1,3 +1,5 @@
+fastapi
+uvicorn[standard]
 streamlit
 google-genai
 python-dotenv
@@ -7,4 +9,3 @@ langchain-community
 faiss-cpu
 pypdf
 pandas
-reportlab
