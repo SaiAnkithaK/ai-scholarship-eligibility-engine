@@ -226,10 +226,11 @@ export default function StudentForm() {
 
     try {
       const payload = buildPayload();
+      const API_URL = import.meta.env.VITE_API_URL;
       const response = await axios.post(
         //"http://127.0.0.1:8000/find-scholarships",
         //"https://shiny-meme-695q75g7xggv3gw5-8000.app.github.dev/find-scholarships",
-        "/find-scholarships",
+        `${API_URL}/find-scholarships`,
         payload
       );
       setResults(response.data.scholarships || []);
