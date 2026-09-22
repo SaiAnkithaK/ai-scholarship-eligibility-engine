@@ -230,7 +230,7 @@ export default function StudentForm() {
       const response = await axios.post(
         //"http://127.0.0.1:8000/find-scholarships",
         //"https://shiny-meme-695q75g7xggv3gw5-8000.app.github.dev/find-scholarships",
-        `${API_URL}/find-scholarships`,
+        "/find-scholarships",
         payload
       );
       setResults(response.data.scholarships || []);

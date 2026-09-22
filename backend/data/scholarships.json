@@ -1,3402 +1,952 @@
 [
   {
     "id": 1,
-    "name": "AICTE Pragati",
+    "name": "AICTE Pragati Scholarship for Girl Students",
     "provider": "AICTE",
     "type": "Government",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
+    "education_level": ["Undergraduate", "Diploma"],
+    "degree": ["B.Tech", "B.E", "B.Pharm", "Diploma"],
+    "gender": ["Female"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 800000,
     "min_cgpa": 6.0,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
+    "amount": "₹50,000 per annum",
+    "deadline": "31-10-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Aadhaar Card", "Income Certificate", "Class 10/12 Marksheet", "Admission Proof"],
+    "official_url": "https://scholarships.gov.in/ApplicationForm/login",
+    "description": "Scheme to assist advancement of girls pursuing technical education with up to two eligible girls per family."
   },
   {
     "id": 2,
-    "name": "AICTE Saksham",
+    "name": "AICTE Saksham Scholarship Scheme",
     "provider": "AICTE",
     "type": "Government",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "education_level": ["Undergraduate", "Diploma"],
+    "degree": ["B.Tech", "B.E", "B.Pharm", "Diploma"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Differently Abled"],
+    "income_limit": 800000,
+    "min_cgpa": 5.5,
+    "amount": "₹50,000 per annum",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["Disability Certificate (40%+)", "Aadhaar Card", "Income Certificate", "Admission Proof"],
+    "official_url": "https://scholarships.gov.in/ApplicationForm/login",
+    "description": "Financial encouragement to specially-abled students to pursue technical education."
   },
   {
     "id": 3,
-    "name": "Reliance Foundation UG",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
+    "name": "Central Sector Scheme of Scholarships for College and University Students",
+    "provider": "Department of Higher Education (MoE)",
+    "type": "Government",
+    "education_level": ["Undergraduate", "Postgraduate"],
+    "degree": ["B.Sc", "B.Com", "B.A", "B.Tech", "M.Sc", "M.Com", "M.A"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 450000,
     "min_cgpa": 7.0,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "amount": "₹12,000 to ₹20,000 per annum",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Aadhaar Card", "Class 12 Marksheet", "Income Certificate", "Bank Passbook"],
+    "official_url": "https://scholarships.gov.in/public/schemeGuidelines_CSSS.pdf",
+    "description": "Provides financial assistance to meritorious students from low-income families to meet day-to-day expenses while pursuing higher studies."
   },
   {
     "id": 4,
-    "name": "HDFC Parivartan",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.5,
-    "amount": "₹125,000",
+    "name": "Post Matric Scholarship for SC Students",
+    "provider": "Ministry of Social Justice and Empowerment",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["SC"],
+    "income_limit": 250000,
+    "min_cgpa": 5.0,
+    "amount": "Full Tuition Fee + Maintenance Allowance",
     "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "renewable": true,
+    "documents": ["Caste Certificate", "Income Certificate", "Aadhaar Card", "Fee Receipt"],
+    "official_url": "https://socialjustice.gov.in/schemes/26",
+    "description": "Centrally sponsored scheme providing financial support to SC students studying at post-matriculation or post-secondary stage."
   },
   {
     "id": 5,
-    "name": "Foundation For Excellence",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 5.5,
-    "amount": "₹150,000",
+    "name": "Post Matric Scholarship for ST Students",
+    "provider": "Ministry of Tribal Affairs",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["ST"],
+    "income_limit": 250000,
+    "min_cgpa": 5.0,
+    "amount": "Full Tuition Fee + Maintenance Allowance",
     "deadline": "31-12-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Tribal Caste Certificate", "Income Certificate", "Aadhaar Card", "Previous Marksheet"],
+    "official_url": "https://tribal.nic.in/Schemes.aspx",
+    "description": "Financial aid for Scheduled Tribe students for post-secondary education."
   },
   {
     "id": 6,
-    "name": "Kotak Kanya",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
+    "name": "Post Matric Scholarship for OBC Students",
+    "provider": "Ministry of Social Justice and Empowerment",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["OBC"],
     "income_limit": 250000,
-    "min_cgpa": 6.0,
-    "amount": "₹175,000",
+    "min_cgpa": 5.0,
+    "amount": "Varies by Course",
     "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "renewable": true,
+    "documents": ["OBC Certificate", "Income Certificate", "Aadhaar Card", "Admission Slip"],
+    "official_url": "https://socialjustice.gov.in/schemes/27",
+    "description": "Assistance to OBC students pursuing post-secondary education."
   },
   {
     "id": 7,
-    "name": "LIC Golden Jubilee",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 6.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
+    "name": "Post Matric Scholarship for Students with Disabilities",
+    "provider": "Department of Empowerment of Persons with Disabilities",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Differently Abled"],
+    "income_limit": 250000,
+    "min_cgpa": 5.0,
+    "amount": "₹4,000 to ₹12,000 per annum + allowances",
+    "deadline": "15-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Disability Certificate", "Income Certificate", "Aadhaar Card", "Marksheet"],
+    "official_url": "https://depwd.gov.in/scholarship-schemes/",
+    "description": "Supports students with 40%+ disability to complete higher education."
   },
   {
     "id": 8,
-    "name": "ONGC Scholarship",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.0,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "Post Matric Scholarship for Minorities",
+    "provider": "Ministry of Minority Affairs",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Minority"],
+    "income_limit": 200000,
+    "min_cgpa": 5.0,
+    "amount": "Up to ₹10,000 per annum",
+    "deadline": "30-11-2026",
+    "renewable": true,
+    "documents": ["Self-Declaration of Minority Community", "Income Certificate", "Aadhaar Card"],
+    "official_url": "https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=782&lid=827",
+    "description": "Supports students from minority communities (Muslim, Christian, Sikh, Buddhist, Jain, Parsi)."
   },
   {
     "id": 9,
-    "name": "Santoor Scholarship",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.5,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
+    "name": "Merit-cum-Means Scholarship for Professional and Technical Courses CS",
+    "provider": "Ministry of Minority Affairs",
+    "type": "Government",
+    "education_level": ["Undergraduate", "Postgraduate"],
+    "degree": ["B.Tech", "M.Tech", "MBBS", "MBA", "MCA"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Minority"],
+    "income_limit": 250000,
+    "min_cgpa": 6.0,
+    "amount": "Up to ₹20,000 per annum",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Minority Certificate", "Income Certificate", "Entrance Exam Scorecard", "Fee Receipt"],
+    "official_url": "https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=783&lid=828",
+    "description": "Financial assistance to deserving minority students to pursue professional courses."
   },
   {
     "id": 10,
-    "name": "Vidyadhan",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 5.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "Ishan Uday Special Scholarship Scheme for NER",
+    "provider": "UGC",
+    "type": "Government",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.A", "B.Sc", "B.Com", "B.Tech", "MBBS"],
+    "gender": ["All"],
+    "states": ["Arunachal Pradesh", "Assam", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Sikkim", "Tripura"],
+    "categories": ["All"],
+    "income_limit": 450000,
+    "min_cgpa": 6.0,
+    "amount": "₹5,400 to ₹7,800 per month",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["Domicile Certificate of NER", "Income Certificate", "Class 12 Marksheet"],
+    "official_url": "https://www.ugc.gov.in/page/ISHAN-UDAY.aspx",
+    "description": "Promotes higher education among students of North Eastern Region."
   },
   {
     "id": 11,
-    "name": "AICTE Pragati #11",
-    "provider": "AICTE",
+    "name": "PG Indira Gandhi Scholarship for Single Girl Child",
+    "provider": "UGC",
     "type": "Government",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
+    "education_level": ["Postgraduate"],
+    "degree": ["M.A", "M.Sc", "M.Com"],
+    "gender": ["Female"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 1000000,
     "min_cgpa": 6.0,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "amount": "₹36,200 per annum",
+    "deadline": "31-10-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Single Girl Child Affidavit", "Graduation Marksheet", "Aadhaar Card"],
+    "official_url": "https://www.ugc.gov.in/sgc/",
+    "description": "Supports single girl children in families pursuing non-professional postgraduate degrees."
   },
   {
     "id": 12,
-    "name": "AICTE Saksham #12",
-    "provider": "AICTE",
+    "name": "Prime Minister Scholarship Scheme for CAPF and Assam Rifles",
+    "provider": "WARB, Ministry of Home Affairs",
     "type": "Government",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 6.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "MBBS", "B.Sc Nursing", "B.Pharm"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Wards of Deceased/Ex-service personnel"],
+    "income_limit": 600000,
+    "min_cgpa": 6.0,
+    "amount": "₹3,000 per month (Girls) / ₹2,500 per month (Boys)",
+    "deadline": "30-11-2026",
+    "renewable": true,
+    "documents": ["Service Certificate", "Class 12 Marksheet", "Aadhaar Card"],
+    "official_url": "https://warb-mha.gov.in/pmss.htm",
+    "description": "Financial aid for higher professional education to dependent wards and widows of CAPFs & AR."
   },
   {
     "id": 13,
-    "name": "Reliance Foundation UG #13",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 7.0,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
+    "name": "Prime Minister Scholarship Scheme for RPF/RPSF",
+    "provider": "Ministry of Railways",
+    "type": "Government",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "MBBS", "BCA", "B.Pharm"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Wards of RPF personnel"],
+    "income_limit": 600000,
+    "min_cgpa": 6.0,
+    "amount": "₹2,500 to ₹3,000 per month",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Discharge Certificate/Service Book", "Class 12 Marksheet", "Aadhaar Card"],
+    "official_url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,539,2156",
+    "description": "Encourages technical and professional education for children of Railway Protection Force staff."
   },
   {
     "id": 14,
-    "name": "HDFC Parivartan #14",
-    "provider": "HDFC",
+    "name": "HDFC Bank Parivartan Educational Crisis Scholarship Support",
+    "provider": "HDFC Bank",
     "type": "Corporate",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.5,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
+    "education_level": ["School", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 600000,
+    "min_cgpa": 5.5,
+    "amount": "Up to ₹75,000",
+    "deadline": "15-10-2026",
     "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Proof of Family Income", "Previous Year Marksheet", "Proof of Educational Crisis"],
+    "official_url": "https://www.hdfcbank.com/personal/about-us/corporate-social-responsibility/parivartan",
+    "description": "Supports students facing personal or family financial crises that threaten continuity in education."
   },
   {
     "id": 15,
-    "name": "Foundation For Excellence #15",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 5.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
+    "name": "Kotak Kanya Scholarship",
+    "provider": "Kotak Education Foundation",
+    "type": "Foundation",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "B.E", "MBBS", "LL.B", "B.Arch"],
+    "gender": ["Female"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 600000,
+    "min_cgpa": 7.5,
+    "amount": "Up to ₹1,500,000 per year",
+    "deadline": "30-09-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Class 12 Marksheet", "Income Certificate", "Admission Letter", "Aadhaar Card"],
+    "official_url": "https://kotakeducation.org/kotak-kanya-scholarship/",
+    "description": "Offers financial aid to meritorious girl students pursuing professional graduation from reputed institutes."
   },
   {
     "id": 16,
-    "name": "Kotak Kanya #16",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 6.0,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "Vidyadhan Higher Education Scholarship",
+    "provider": "Sarojini Damodaran Foundation",
+    "type": "NGO",
+    "education_level": ["Undergraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["Kerala", "Karnataka", "Tamil Nadu", "Telangana", "Andhra Pradesh", "Gujarat", "Maharashtra"],
+    "categories": ["All"],
+    "income_limit": 200000,
+    "min_cgpa": 8.0,
+    "amount": "₹10,000 to ₹60,000 per annum",
+    "deadline": "31-08-2026",
+    "renewable": true,
+    "documents": ["Class 10/12 Marksheet", "Income Certificate", "Photograph"],
+    "official_url": "https://www.vidyadhan.org/apply",
+    "description": "Scholarships for meritorious students from economically challenged families after Class 10."
   },
   {
     "id": 17,
-    "name": "LIC Golden Jubilee #17",
-    "provider": "LIC",
+    "name": "Reliance Foundation Undergraduate Scholarship",
+    "provider": "Reliance Foundation",
     "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
+    "education_level": ["Undergraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
     "income_limit": 1500000,
-    "min_cgpa": 6.5,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
+    "min_cgpa": 6.0,
+    "amount": "Up to ₹2,00,000 over course duration",
+    "deadline": "06-10-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Class 12 Marksheet", "Income Proof", "Aadhaar Card", "Aptitude Test Score"],
+    "official_url": "https://www.scholarships.reliancefoundation.org/Undergraduate_Scholarship.aspx",
+    "description": "Supports undergraduate students pursuing any degree course in India."
   },
   {
     "id": 18,
-    "name": "ONGC Scholarship #18",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 7.0,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "Reliance Foundation Postgraduate Scholarship",
+    "provider": "Reliance Foundation",
+    "type": "Corporate",
+    "education_level": ["Postgraduate"],
+    "degree": ["M.Tech", "M.Sc", "Data Science", "AI/ML"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 1500000,
+    "min_cgpa": 7.5,
+    "amount": "Up to ₹6,00,000 over course duration",
+    "deadline": "06-10-2026",
+    "renewable": true,
+    "documents": ["GATE Scorecard/Graduation Marksheet", "Income Proof", "Aadhaar Card"],
+    "official_url": "https://www.scholarships.reliancefoundation.org/Postgraduate_Scholarship.aspx",
+    "description": "Aims to nurture future leaders in technology fields like AI, Computer Science, and Renewable Energy."
   },
   {
     "id": 19,
-    "name": "Santoor Scholarship #19",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 7.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "name": "ONGC Scholarship Scheme for SC/ST Students",
+    "provider": "ONGC Foundation",
+    "type": "PSU",
+    "education_level": ["Undergraduate", "Postgraduate"],
+    "degree": ["B.Tech", "MBBS", "MBA", "M.Sc Geology"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["SC", "ST"],
+    "income_limit": 450000,
+    "min_cgpa": 6.0,
+    "amount": "₹48,000 per annum",
+    "deadline": "15-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Caste Certificate", "Income Certificate", "Class 12 / Graduation Marksheet"],
+    "official_url": "https://www.ongcfoundation.org/scholarship",
+    "description": "Financial assistance for meritorious SC/ST students studying engineering, medicine, and management."
   },
   {
     "id": 20,
-    "name": "Vidyadhan #20",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 5.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "ONGC Scholarship Scheme for OBC Students",
+    "provider": "ONGC Foundation",
+    "type": "PSU",
+    "education_level": ["Undergraduate", "Postgraduate"],
+    "degree": ["B.Tech", "MBBS", "MBA", "M.Sc Geophysics"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["OBC"],
+    "income_limit": 200000,
+    "min_cgpa": 6.0,
+    "amount": "₹48,000 per annum",
+    "deadline": "15-11-2026",
+    "renewable": true,
+    "documents": ["OBC Certificate", "Income Certificate", "College Bonafide Certificate"],
+    "official_url": "https://www.ongcfoundation.org/scholarship",
+    "description": "Empowers OBC category students pursuing professional degree courses."
   },
   {
     "id": 21,
-    "name": "AICTE Pragati #21",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
+    "name": "ONGC Scholarship Scheme for General EWS Category",
+    "provider": "ONGC Foundation",
+    "type": "PSU",
+    "education_level": ["Undergraduate", "Postgraduate"],
+    "degree": ["B.Tech", "MBBS", "MBA", "M.Sc Geology"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["EWS"],
+    "income_limit": 200000,
     "min_cgpa": 6.0,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
+    "amount": "₹48,000 per annum",
+    "deadline": "15-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["EWS Certificate", "Income Certificate", "Class 12 Marksheet"],
+    "official_url": "https://www.ongcfoundation.org/scholarship",
+    "description": "Provides equal educational opportunities to economically weaker general category students."
   },
   {
     "id": 22,
-    "name": "AICTE Saksham #22",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 6.5,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "LIC Golden Jubilee Scholarship",
+    "provider": "Life Insurance Corporation of India",
+    "type": "PSU",
+    "education_level": ["Undergraduate", "Diploma"],
+    "degree": ["B.A", "B.Sc", "B.Com", "B.Tech", "MBBS", "Diploma"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 250000,
+    "min_cgpa": 6.0,
+    "amount": "₹20,000 to ₹40,000 per annum",
+    "deadline": "20-12-2026",
+    "renewable": true,
+    "documents": ["Class 10/12 Marksheet", "Income Certificate", "Bank Account Details"],
+    "official_url": "https://licindia.in/golden-jubilee-foundation",
+    "description": "Encourages students from economically weaker families to pursue higher studies in medicine, engineering, and graduation."
   },
   {
     "id": 23,
-    "name": "Reliance Foundation UG #23",
-    "provider": "Reliance",
+    "name": "Tata Capital Pankh Scholarship Program",
+    "provider": "Tata Capital",
     "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 7.0,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "education_level": ["School", "Undergraduate"],
+    "degree": ["B.Com", "B.Sc", "B.A", "B.Tech", "Diploma"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 400000,
+    "min_cgpa": 6.0,
+    "amount": "Up to 80% of course fee or ₹12,000",
+    "deadline": "15-11-2026",
+    "renewable": false,
+    "documents": ["Income Proof", "Previous Year Marksheet", "Fee Receipt"],
+    "official_url": "https://www.tatacapital.com/csr/pankh-scholarship.html",
+    "description": "Aims to support students from underprivileged backgrounds in continuing their education."
   },
   {
     "id": 24,
-    "name": "HDFC Parivartan #24",
-    "provider": "HDFC",
+    "name": "L&T Build India Scholarship",
+    "provider": "Larsen & Toubro",
     "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 7.5,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "education_level": ["Postgraduate"],
+    "degree": ["M.Tech Construction Technology"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 1000000,
+    "min_cgpa": 7.0,
+    "amount": "Full Tuition Fee + Monthly Stipend ₹13,400",
+    "deadline": "31-03-2026",
+    "renewable": true,
+    "documents": ["B.E/B.Tech Marksheets", "Aadhaar Card", "Written Test Score"],
+    "official_url": "https://www.lntecc.com/careers/bis/",
+    "description": "Sponsors brilliant civil and electrical engineering graduates for M.Tech at IIT Madras, IIT Delhi, NIT Trichy, or Surathkal."
   },
   {
     "id": 25,
-    "name": "Foundation For Excellence #25",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 5.5,
-    "amount": "₹50,000",
+    "name": "Infosys STEM Stars Scholarship",
+    "provider": "Infosys Foundation",
+    "type": "Foundation",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "B.E", "B.Sc STEM", "MBBS"],
+    "gender": ["Female"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 800000,
+    "min_cgpa": 7.0,
+    "amount": "Up to ₹1,00,000 per annum",
     "deadline": "31-12-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Admission Proof", "Class 12 Marksheet", "Income Certificate", "Aadhaar Card"],
+    "official_url": "https://www.infosys.com/infosys-foundation.html",
+    "description": "Encourages young women across India to pursue undergraduate degrees in STEM disciplines."
   },
   {
     "id": 26,
-    "name": "Kotak Kanya #26",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.0,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
+    "name": "Narotam Sekhsaria Higher Education Scholarship",
+    "provider": "Narotam Sekhsaria Foundation",
+    "type": "Foundation",
+    "education_level": ["Postgraduate"],
+    "degree": ["M.Tech", "MS", "MBA", "LL.M"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 1200000,
+    "min_cgpa": 7.5,
+    "amount": "Interest-free loan scholarship up to ₹20,00,000",
+    "deadline": "15-03-2026",
     "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Graduation Marksheets", "GRE/GMAT/CAT Scores", "Income Tax Returns"],
+    "official_url": "https://pg.nsfoundation.co.in/",
+    "description": "Interest-free loan scholarships for high-achieving Indian students pursuing postgraduate studies in India or abroad."
   },
   {
     "id": 27,
-    "name": "LIC Golden Jubilee #27",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 6.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "name": "SBIF Asha Scholarship Program",
+    "provider": "SBI Foundation",
+    "type": "Foundation",
+    "education_level": ["School", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 300000,
+    "min_cgpa": 7.5,
+    "amount": "Up to ₹50,000 per year",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Marksheet", "Income Certificate", "Aadhaar Card", "College ID"],
+    "official_url": "https://www.sbifoundation.in/",
+    "description": "Initiative to support education of meritorious students from low-income families across India."
   },
   {
     "id": 28,
-    "name": "ONGC Scholarship #28",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.0,
-    "amount": "₹125,000",
+    "name": "Sitaram Jindal Foundation Scholarship",
+    "provider": "Sitaram Jindal Foundation",
+    "type": "NGO",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate", "Diploma"],
+    "degree": ["B.A", "B.Com", "B.Sc", "B.Tech", "MBBS", "M.Com"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 400000,
+    "min_cgpa": 6.5,
+    "amount": "₹500 to ₹3,200 per month",
     "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "renewable": true,
+    "documents": ["Marksheet", "Income Certificate", "SSLC Certificate"],
+    "official_url": "https://www.sitaramjindalfoundation.org/scholarship.php",
+    "description": "Scholarship awarded to needy and meritorious students enrolled in high school through postgraduation."
   },
   {
     "id": 29,
-    "name": "Santoor Scholarship #29",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 7.5,
-    "amount": "₹150,000",
+    "name": "Foundation for Excellence FFE Scholarship",
+    "provider": "Foundation for Excellence",
+    "type": "NGO",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "B.E", "MBBS", "B.Pharm"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 300000,
+    "min_cgpa": 7.0,
+    "amount": "Up to ₹50,000 per year",
     "deadline": "31-12-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Entrance Rank Card", "Class 12 Marksheet", "Salary Slip / Income Cert"],
+    "official_url": "https://ffe.org/scholarships/",
+    "description": "Financial assistance to bright students pursuing professional degrees who are entering 1st year."
   },
   {
     "id": 30,
-    "name": "Vidyadhan #30",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 5.5,
-    "amount": "₹175,000",
+    "name": "Keep India Smiling Foundational Scholarship",
+    "provider": "Colgate-Palmolive India",
+    "type": "Corporate",
+    "education_level": ["Class 11", "Undergraduate"],
+    "degree": ["B.D.S", "B.Tech", "B.Sc", "3-Year Graduation"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 500000,
+    "min_cgpa": 6.0,
+    "amount": "Up to ₹50,000 per annum",
     "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "renewable": true,
+    "documents": ["Class 10/12 Marksheet", "Income Certificate", "ID Proof"],
+    "official_url": "https://www.colgatepalmolive.co.in/core-values/community/keep-india-smiling",
+    "description": "Financial support to deserving individuals to pursue higher education and career foundational goals."
   },
   {
     "id": 31,
-    "name": "AICTE Pragati #31",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
+    "name": "Santoshtidevi Charitable Trust Scholarship",
+    "provider": "Santosh Charitable Trust",
+    "type": "NGO",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "MBBS", "B.A"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 200000,
     "min_cgpa": 6.0,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
+    "amount": "₹20,000 per annum",
+    "deadline": "30-10-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Income Certificate", "Marksheet", "Bank Passbook"],
+    "official_url": "https://www.santosh.ac.in/",
+    "description": "Supports needy students with high academic standing."
   },
   {
     "id": 32,
-    "name": "AICTE Saksham #32",
-    "provider": "AICTE",
+    "name": "Telangana ePASS Post Matric Scholarship",
+    "provider": "Government of Telangana",
     "type": "Government",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.5,
-    "amount": "₹25,000",
+    "education_level": ["Undergraduate", "Postgraduate", "Diploma"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["Telangana"],
+    "categories": ["SC", "ST", "BC", "EBC", "Minority"],
+    "income_limit": 200000,
+    "min_cgpa": 5.0,
+    "amount": "100% Tuition Fee Reimbursement + Maintenance Fee",
     "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "renewable": true,
+    "documents": ["Caste Certificate", "Income Certificate", "Telangana Domicile", "Aadhaar Card"],
+    "official_url": "https://telanganaepass.cgg.gov.in/",
+    "description": "Full fee reimbursement and maintenance allowance for post-matric students domiciled in Telangana."
   },
   {
     "id": 33,
-    "name": "Reliance Foundation UG #33",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.0,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
+    "name": "Jagananna Vidya Deevena Scheme",
+    "provider": "Government of Andhra Pradesh",
+    "type": "Government",
+    "education_level": ["Undergraduate", "Postgraduate", "Diploma"],
+    "degree": ["B.Tech", "B.Sc", "B.Com", "MCA", "MBA"],
+    "gender": ["All"],
+    "states": ["Andhra Pradesh"],
+    "categories": ["SC", "ST", "BC", "EBC", "Kapu", "Minority", "Differently Abled"],
+    "income_limit": 250000,
+    "min_cgpa": 5.0,
+    "amount": "Full Tuition Fee Reimbursement paid directly to mother's account",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["AP Domicile", "Rice Card / Income Certificate", "Aadhaar Card"],
+    "official_url": "https://jaganannavidyadeevena.ap.gov.in/",
+    "description": "Complete fee reimbursement scheme for students belonging to poor families in Andhra Pradesh."
   },
   {
     "id": 34,
-    "name": "HDFC Parivartan #34",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.5,
-    "amount": "₹75,000",
+    "name": "MahaDBT Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojna",
+    "provider": "Government of Maharashtra",
+    "type": "Government",
+    "education_level": ["Undergraduate", "Postgraduate"],
+    "degree": ["B.Tech", "MBBS", "B.Pharm", "B.Sc"],
+    "gender": ["All"],
+    "states": ["Maharashtra"],
+    "categories": ["EBC", "General"],
+    "income_limit": 800000,
+    "min_cgpa": 5.0,
+    "amount": "50% to 100% Tuition Fee Waiver",
     "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "renewable": true,
+    "documents": ["Maharashtra Domicile", "Income Certificate", "CAP Allotment Letter"],
+    "official_url": "https://mahadbt.maharashtra.gov.in/",
+    "description": "Tuition fee waiver for economically backward students admitted under central admission process in Maharashtra."
   },
   {
     "id": 35,
-    "name": "Foundation For Excellence #35",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
+    "name": "Kanyashree Prakalpa K3 Scheme",
+    "provider": "Government of West Bengal",
+    "type": "Government",
+    "education_level": ["Postgraduate"],
+    "degree": ["M.A", "M.Sc", "M.Com"],
+    "gender": ["Female"],
+    "states": ["West Bengal"],
+    "categories": ["All"],
+    "income_limit": 1000000,
     "min_cgpa": 5.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "amount": "₹2,000 to ₹2,500 per month",
+    "deadline": "31-10-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["West Bengal Domicile", "Graduation Marksheet", "Unmarried Certificate"],
+    "official_url": "https://www.wbkanyashree.gov.in/",
+    "description": "Financial incentive for unmarried female postgraduate students in West Bengal."
   },
   {
     "id": 36,
-    "name": "Kotak Kanya #36",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
+    "name": "Swami Vivekananda Merit-cum-Means Scholarship SVMCM",
+    "provider": "Government of West Bengal",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["B.A", "B.Sc", "B.Tech", "M.A", "M.Sc"],
+    "gender": ["All"],
+    "states": ["West Bengal"],
+    "categories": ["All"],
     "income_limit": 250000,
     "min_cgpa": 6.0,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "amount": "₹1,000 to ₹5,000 per month",
+    "deadline": "30-11-2026",
+    "renewable": true,
+    "documents": ["West Bengal Domicile", "Income Certificate", "Class 10/12/UG Marksheet"],
+    "official_url": "https://svmcm.wbhed.gov.in/",
+    "description": "Assists meritorious students belonging to economically backward families in West Bengal."
   },
   {
     "id": 37,
-    "name": "LIC Golden Jubilee #37",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 6.5,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
+    "name": "SSP Post Matric Scholarship Karnataka",
+    "provider": "Government of Karnataka",
+    "type": "Government",
+    "education_level": ["Undergraduate", "Postgraduate", "Diploma"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["Karnataka"],
+    "categories": ["SC", "ST", "OBC", "Minority"],
+    "income_limit": 250000,
+    "min_cgpa": 5.0,
+    "amount": "Tuition Fee Reimbursement + Maintenance",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Karnataka Domicile", "Caste/Income Certificate", "Aadhaar Card", "SATS ID"],
+    "official_url": "https://ssp.postmatric.karnataka.gov.in/",
+    "description": "Single State Scholarship Portal for post-matric students in Karnataka."
   },
   {
     "id": 38,
-    "name": "ONGC Scholarship #38",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.0,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "Mukhya Mantri Yuva Swavalamban Yojana MYSY",
+    "provider": "Government of Gujarat",
+    "type": "Government",
+    "education_level": ["Undergraduate", "Diploma"],
+    "degree": ["B.Tech", "MBBS", "B.Pharm", "Diploma"],
+    "gender": ["All"],
+    "states": ["Gujarat"],
+    "categories": ["All"],
+    "income_limit": 600000,
+    "min_cgpa": 8.0,
+    "amount": "Up to 50% of tuition fee (max ₹2,00,000)",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["Class 10/12 Marksheet", "Gujarat Domicile", "Income Certificate"],
+    "official_url": "https://mysy.guj.nic.in/",
+    "description": "Assists meritorious bright students of Gujarat coming from weaker financial backgrounds."
   },
   {
     "id": 39,
-    "name": "Santoor Scholarship #39",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.5,
-    "amount": "₹200,000",
+    "name": "Dr. Ambedkar Post Matric Scholarship for EBC Students",
+    "provider": "Ministry of Social Justice and Empowerment",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["EWS", "General"],
+    "income_limit": 100000,
+    "min_cgpa": 5.0,
+    "amount": "Maintenance Allowance & Compulsory Non-Refundable Fees",
     "deadline": "31-12-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Income Certificate", "Class 10/12 Marksheet", "Aadhaar Card"],
+    "official_url": "https://socialjustice.gov.in/schemes/31",
+    "description": "Financial assistance to Economically Backward Class (EBC) students for post-secondary study."
   },
   {
     "id": 40,
-    "name": "Vidyadhan #40",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 5.5,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "National Fellowship for Higher Education of ST Students",
+    "provider": "Ministry of Tribal Affairs",
+    "type": "Government",
+    "education_level": ["Postgraduate", "Doctoral"],
+    "degree": ["M.Phil", "Ph.D"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["ST"],
+    "income_limit": 600000,
+    "min_cgpa": 6.0,
+    "amount": "₹31,000 to ₹35,000 per month + Contingency",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["ST Certificate", "Postgraduation Marksheets", "Ph.D Admission Letter"],
+    "official_url": "https://tribal.nic.in/NFST.aspx",
+    "description": "Fellowship to support ST students undertaking advanced M.Phil/Ph.D studies."
   },
   {
     "id": 41,
-    "name": "AICTE Pragati #41",
-    "provider": "AICTE",
+    "name": "National Fellowship for SC Students NFSC",
+    "provider": "Ministry of Social Justice and Empowerment",
     "type": "Government",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
+    "education_level": ["Doctoral"],
+    "degree": ["Ph.D"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["SC"],
+    "income_limit": 800000,
     "min_cgpa": 6.0,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
+    "amount": "₹31,000 to ₹35,000 per month stipend",
+    "deadline": "31-10-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["SC Certificate", "Master Degree Certificate", "Ph.D Registration Proof"],
+    "official_url": "https://socialjustice.gov.in/schemes/28",
+    "description": "Provides financial aid to SC candidate scholars for pursuing research degrees."
   },
   {
     "id": 42,
-    "name": "AICTE Saksham #42",
+    "name": "AICTE Swanath Scholarship Scheme",
     "provider": "AICTE",
     "type": "Government",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 6.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "education_level": ["Undergraduate", "Diploma"],
+    "degree": ["B.Tech", "B.E", "B.Pharm", "Diploma"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["Orphans", "Children of Armed Forces Personnel slain in action"],
+    "income_limit": 800000,
+    "min_cgpa": 5.0,
+    "amount": "₹50,000 per annum",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["Orphan Certificate or Death Certificate of Parents", "Income Proof", "College ID"],
+    "official_url": "https://www.aicte-india.org/schemes/students-development-schemes/Swanath",
+    "description": "Support for orphans, wards of parents who died due to COVID-19, and children of armed forces slain in action."
   },
   {
     "id": 43,
-    "name": "Reliance Foundation UG #43",
-    "provider": "Reliance",
+    "name": "Aditya Birla Capital Scholarship",
+    "provider": "Aditya Birla Capital Foundation",
     "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 7.0,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "education_level": ["School", "Undergraduate"],
+    "degree": ["B.A", "B.Com", "B.Sc", "B.Tech"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 600000,
+    "min_cgpa": 6.0,
+    "amount": "Up to ₹60,000 per year",
+    "deadline": "15-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Previous Year Marksheet", "Income Proof", "Aadhaar Card"],
+    "official_url": "https://www.adityabirlacapital.com/",
+    "description": "Financial assistance program for students who have suffered loss/crisis in family to ensure education continuity."
   },
   {
     "id": 44,
-    "name": "HDFC Parivartan #44",
-    "provider": "HDFC",
+    "name": "Rolls-Royce Unnati Scholarship for Women Engineering Students",
+    "provider": "Rolls-Royce India",
     "type": "Corporate",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech Engineering"],
+    "gender": ["Female"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 400000,
+    "min_cgpa": 6.5,
+    "amount": "₹35,000 one-time / annual grant",
+    "deadline": "31-08-2026",
     "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Class 10/12 Marksheets", "Government Photo ID", "Family Income Certificate"],
+    "official_url": "https://www.rolls-royce.com/country-sites/india.aspx",
+    "description": "Encourages girl students pursuing 1st/2nd/3rd year engineering degrees across recognized Indian colleges."
   },
   {
     "id": 45,
-    "name": "Foundation For Excellence #45",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 5.5,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
+    "name": "SBIF Asha Scholarship for IIT Students",
+    "provider": "SBI Foundation",
+    "type": "Foundation",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "Dual Degree"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 300000,
+    "min_cgpa": 7.0,
+    "amount": "Up to ₹3,40,000 per annum",
+    "deadline": "30-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["IIT Admission Proof", "Class 12 Marksheet", "Income Certificate"],
+    "official_url": "https://www.sbifoundation.in/",
+    "description": "Dedicated financial grant for top-tier undergraduate students studying at Indian Institutes of Technology (IITs)."
   },
   {
     "id": 46,
-    "name": "Kotak Kanya #46",
-    "provider": "Kotak",
+    "name": "Pragya Girls Scholarship Program",
+    "provider": "L'Oréal India",
     "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 6.0,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Sc", "B.Tech", "MBBS", "B.Pharm"],
+    "gender": ["Female"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 600000,
+    "min_cgpa": 8.5,
+    "amount": "Up to ₹2,50,000 over course duration",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["Class 12 Marksheet", "Income Certificate", "Age Proof"],
+    "official_url": "https://www.loreal.com/en/india/",
+    "description": "Empowers young women from economically disadvantaged backgrounds to pursue higher education in science fields."
   },
   {
     "id": 47,
-    "name": "LIC Golden Jubilee #47",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 6.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "name": "Dr. APJ Abdul Kalam Ignite Scholarship",
+    "provider": "National Innovation Foundation",
+    "type": "Government",
+    "education_level": ["School", "Undergraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 1000000,
+    "min_cgpa": 5.0,
+    "amount": "Innovation Grant & Financial Aid",
+    "deadline": "31-08-2026",
+    "renewable": false,
+    "documents": ["Project Prototype / Idea Document", "School/College ID"],
+    "official_url": "https://nif.org.in/",
+    "description": "National award and financial grant scheme for innovative technological ideas and projects by students."
   },
   {
     "id": 48,
-    "name": "ONGC Scholarship #48",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
+    "name": "PM YASASVI Post Matric Scholarship for OBC EBC and DNT",
+    "provider": "Ministry of Social Justice and Empowerment",
+    "type": "Government",
+    "education_level": ["Class 11", "Class 12", "Undergraduate", "Postgraduate"],
+    "degree": ["Any"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["OBC", "EBC", "DNT"],
     "income_limit": 250000,
-    "min_cgpa": 7.0,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "min_cgpa": 5.5,
+    "amount": "Up to ₹20,000 per annum",
+    "deadline": "31-10-2026",
+    "renewable": true,
+    "documents": ["Category Certificate", "Income Certificate", "Aadhaar Card"],
+    "official_url": "https://yet.nta.ac.in/",
+    "description": "Young Achievers Scholarship Award Scheme for Vibrant India for OBC, EBC, and De-notified Nomadic Tribes."
   },
   {
     "id": 49,
-    "name": "Santoor Scholarship #49",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 7.5,
-    "amount": "₹50,000",
+    "name": "NTPC Scholarship Scheme for Engineering Students",
+    "provider": "NTPC Limited",
+    "type": "PSU",
+    "education_level": ["Undergraduate"],
+    "degree": ["B.Tech", "B.E"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["SC", "ST", "Differently Abled"],
+    "income_limit": 600000,
+    "min_cgpa": 6.0,
+    "amount": "₹1,500 per month",
     "deadline": "31-12-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Caste/Disability Certificate", "Engineering Marksheets", "Institute Bonafide"],
+    "official_url": "https://www.ntpc.co.in/",
+    "description": "Financial assistance to SC, ST, and PH students pursuing 4-year degree courses in Engineering."
   },
   {
     "id": 50,
-    "name": "Vidyadhan #50",
-    "provider": "Vidyadhan",
+    "name": "Santoshtidevi Foundation Higher Education Support",
+    "provider": "Foundation Grants",
     "type": "NGO",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 5.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 51,
-    "name": "AICTE Pragati #51",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
+    "education_level": ["Undergraduate"],
+    "degree": ["B.A", "B.Com", "B.Sc"],
+    "gender": ["All"],
+    "states": ["All"],
+    "categories": ["All"],
+    "income_limit": 200000,
     "min_cgpa": 6.0,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
+    "amount": "₹15,000 per annum",
+    "deadline": "15-11-2026",
     "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 52,
-    "name": "AICTE Saksham #52",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 6.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 53,
-    "name": "Reliance Foundation UG #53",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 7.0,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 54,
-    "name": "HDFC Parivartan #54",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 7.5,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 55,
-    "name": "Foundation For Excellence #55",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 5.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 56,
-    "name": "Kotak Kanya #56",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.0,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 57,
-    "name": "LIC Golden Jubilee #57",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 6.5,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 58,
-    "name": "ONGC Scholarship #58",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.0,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 59,
-    "name": "Santoor Scholarship #59",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 7.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 60,
-    "name": "Vidyadhan #60",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 5.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 61,
-    "name": "AICTE Pragati #61",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 6.0,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 62,
-    "name": "AICTE Saksham #62",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.5,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 63,
-    "name": "Reliance Foundation UG #63",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.0,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 64,
-    "name": "HDFC Parivartan #64",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.5,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 65,
-    "name": "Foundation For Excellence #65",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 5.5,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 66,
-    "name": "Kotak Kanya #66",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 6.0,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 67,
-    "name": "LIC Golden Jubilee #67",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 6.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 68,
-    "name": "ONGC Scholarship #68",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.0,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 69,
-    "name": "Santoor Scholarship #69",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.5,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 70,
-    "name": "Vidyadhan #70",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 5.5,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 71,
-    "name": "AICTE Pragati #71",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 6.0,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 72,
-    "name": "AICTE Saksham #72",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 6.5,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 73,
-    "name": "Reliance Foundation UG #73",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 7.0,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 74,
-    "name": "HDFC Parivartan #74",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 75,
-    "name": "Foundation For Excellence #75",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 5.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 76,
-    "name": "Kotak Kanya #76",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 6.0,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 77,
-    "name": "LIC Golden Jubilee #77",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 6.5,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 78,
-    "name": "ONGC Scholarship #78",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 7.0,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 79,
-    "name": "Santoor Scholarship #79",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 7.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 80,
-    "name": "Vidyadhan #80",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 5.5,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 81,
-    "name": "AICTE Pragati #81",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 6.0,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 82,
-    "name": "AICTE Saksham #82",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 6.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 83,
-    "name": "Reliance Foundation UG #83",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 7.0,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 84,
-    "name": "HDFC Parivartan #84",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 7.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 85,
-    "name": "Foundation For Excellence #85",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 5.5,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 86,
-    "name": "Kotak Kanya #86",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.0,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 87,
-    "name": "LIC Golden Jubilee #87",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 6.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 88,
-    "name": "ONGC Scholarship #88",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.0,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 89,
-    "name": "Santoor Scholarship #89",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 7.5,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 90,
-    "name": "Vidyadhan #90",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "BA"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 5.5,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 91,
-    "name": "AICTE Pragati #91",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 6.0,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 92,
-    "name": "AICTE Saksham #92",
-    "provider": "AICTE",
-    "type": "Government",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 6.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 93,
-    "name": "Reliance Foundation UG #93",
-    "provider": "Reliance",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "Diploma"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.0,
-    "amount": "₹150,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 94,
-    "name": "HDFC Parivartan #94",
-    "provider": "HDFC",
-    "type": "Corporate",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 7.5,
-    "amount": "₹175,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 95,
-    "name": "Foundation For Excellence #95",
-    "provider": "Foundation",
-    "type": "NGO",
-    "education_level": [
-      "Postgraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1500000,
-    "min_cgpa": 5.5,
-    "amount": "₹200,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 96,
-    "name": "Kotak Kanya #96",
-    "provider": "Kotak",
-    "type": "Corporate",
-    "education_level": [
-      "PhD"
-    ],
-    "degree": [
-      "PhD"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 250000,
-    "min_cgpa": 6.0,
-    "amount": "₹25,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 97,
-    "name": "LIC Golden Jubilee #97",
-    "provider": "LIC",
-    "type": "Corporate",
-    "education_level": [
-      "School"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 300000,
-    "min_cgpa": 6.5,
-    "amount": "₹50,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 98,
-    "name": "ONGC Scholarship #98",
-    "provider": "ONGC",
-    "type": "PSU",
-    "education_level": [
-      "Intermediate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 500000,
-    "min_cgpa": 7.0,
-    "amount": "₹75,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 99,
-    "name": "Santoor Scholarship #99",
-    "provider": "Santoor",
-    "type": "Corporate",
-    "education_level": [
-      "Diploma"
-    ],
-    "degree": [
-      "B.E."
-    ],
-    "gender": [
-      "All"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 800000,
-    "min_cgpa": 7.5,
-    "amount": "₹100,000",
-    "deadline": "31-12-2026",
-    "renewable": true,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
-  },
-  {
-    "id": 100,
-    "name": "Vidyadhan #100",
-    "provider": "Vidyadhan",
-    "type": "NGO",
-    "education_level": [
-      "Undergraduate"
-    ],
-    "degree": [
-      "Any"
-    ],
-    "gender": [
-      "Female"
-    ],
-    "states": [
-      "All"
-    ],
-    "categories": [
-      "All"
-    ],
-    "income_limit": 1000000,
-    "min_cgpa": 5.5,
-    "amount": "₹125,000",
-    "deadline": "31-12-2026",
-    "renewable": false,
-    "documents": [
-      "Aadhaar Card",
-      "Income Certificate",
-      "Marksheets",
-      "Bank Passbook"
-    ],
-    "official_url": "https://scholarships.gov.in/",
-    "description": "Scholarship for eligible Indian students based on academic merit and financial need."
+    "documents": ["Income Certificate", "Class 12 Marksheet"],
+    "official_url": "https://www.santosh.ac.in/",
+    "description": "Supports undergraduate general degree students from rural regions."
   }
 ]
