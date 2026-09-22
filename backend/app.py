@@ -9,7 +9,7 @@ from ai.gemini_service import generate_scholarship_summary
 # Page Config
 # --------------------------------------------------
 st.set_page_config(
-    page_title="ScholarSense AI",
+    page_title="FitScholar - AI Scholarship Matchmaker",
     page_icon="🎓",
     layout="wide"
 )
@@ -27,7 +27,7 @@ st.markdown("""
 <div class="glass-card">
 
 <h1 class="main-title">
-🎓 ScholarSense AI
+🎓 FitScholar
 </h1>
 
 <p class="sub-title">

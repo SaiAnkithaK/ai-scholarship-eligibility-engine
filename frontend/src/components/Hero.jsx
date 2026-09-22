@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="rounded-3xl border bg-white p-8 shadow-lg min-h-[420px] flex items-center justify-center">
           <div className="text-center">
             <h3 className="text-2xl font-bold">
-              🎓 ScholarSense AI
+              🎓 FitScholar
             </h3>
 
             <p className="mt-4 text-slate-500">
