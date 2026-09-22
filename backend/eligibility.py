@@ -1,5 +1,5 @@
+from ai_matcher import calculate_ai_score
 import json
-
 
 def load_scholarships():
     with open("data/scholarships.json", "r", encoding="utf-8") as file:
@@ -111,6 +111,7 @@ def find_eligible_scholarships(student):
             scholarship
         )
 
+        scholarship["ai_score"] = calculate_ai_score(student, scholarship)
         eligible.append(scholarship)
 
     eligible.sort(
@@ -118,4 +119,5 @@ def find_eligible_scholarships(student):
         reverse=True
     )
 
+    eligible.sort(key=lambda x: x["ai_score"], reverse=True)
     return eligible

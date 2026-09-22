@@ -257,7 +257,7 @@ export default function StudentForm() {
                 Scholarship Profile
               </p>
               <h2 className="text-3xl font-semibold text-stone-900">
-                Complete your eligibility profile
+                Let's personalise your search.
               </h2>
               <p className="max-w-2xl text-sm leading-6 text-stone-600">
                 Provide accurate information so we can match you with the best scholarship opportunities.
@@ -269,7 +269,7 @@ export default function StudentForm() {
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div>
                     <p className="text-xl font-semibold text-stone-900">1. Personal Information</p>
-                    <p className="text-sm text-stone-500">Basic profile details for eligibility matching.</p>
+                    <p className="text-sm text-stone-500">Basic student profile details.</p>
                   </div>
                 </div>
 
@@ -783,7 +783,7 @@ export default function StudentForm() {
 
           <div className="grid gap-6 xl:grid-cols-2">
             {results.map((item, index) => {
-              const matchValue = item.match_score ?? item.score;
+              const matchValue = item.ai_score ?? item.match_score ?? item.score;
               const matchLabel = matchValue != null ? `${matchValue}% Match` : "Recommended";
 
               return (
@@ -813,7 +813,7 @@ export default function StudentForm() {
                     <div className="grid gap-3 sm:grid-cols-2">
                       <div className="rounded-3xl bg-[#FFF2DC] p-4">
                         <p className="text-xs uppercase tracking-[0.24em] text-stone-500">Match Score</p>
-                        <Badge className="mt-2 rounded-full bg-olive-900 px-3 py-1 text-[0.75rem] font-semibold text-cream">
+                        <Badge className="mt-2 rounded-full bg-[#D8C4A6] px-3 py-1 text-[0.75rem] font-semibold !text-stone-900">
                           {matchLabel}
                         </Badge>
                       </div>

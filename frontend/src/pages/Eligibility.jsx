@@ -9,11 +9,11 @@ export default function Eligibility() {
 
         <div className="mb-12">
           <h1 className="text-5xl font-bold text-stone-900">
-            Scholarship Eligibility
+            FitScholar
           </h1>
 
           <p className="mt-3 text-lg text-stone-600">
-            Fill in your profile once. We'll handle the rest.
+            Your AI-Powered Scholarship Matchmaker: Fill in your profile once, We'll handle the rest.
           </p>
         </div>
 
